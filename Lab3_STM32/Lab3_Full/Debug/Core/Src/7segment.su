@@ -1,0 +1,5 @@
+7segment.c:13:6:display7SEG	16	static
+7segment.c:115:13:setEnablePin	16	static
+7segment.c:129:6:update7SEG_Scan	16	static
+7segment.c:146:6:set7SEG_Numbers	16	static
+7segment.c:153:6:update_7SEG_AutoMode	16	static
