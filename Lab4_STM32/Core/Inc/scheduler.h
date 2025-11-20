@@ -9,16 +9,22 @@
 #define INC_SCHEDULER_H_
 
 #include "stdint.h"
+#include "main.h"
+#include <stddef.h>
 #define SCH_MAX_TASKS	10
 #define ERROR_SCH_TOO_MANY_TASKS	1
 
-typedef struct {
-	void (*pTask)();
+typedef struct sTasks {
+	void (*pTask)(void);	//con tro ham
 	uint32_t 	delay;
 	uint32_t 	period;
 	uint8_t		runMe;
+
 	uint32_t	taskID;
+	struct sTasks *next;	//con tro toi task tiep theo
 } sTasks;
+
+extern sTasks *Head_Task;
 
 extern int Error_Code;
 

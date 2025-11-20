@@ -1,0 +1,7 @@
+global.c:20:6:setRed_1	8	static
+global.c:26:6:setGreen_1	8	static
+global.c:32:6:setYellow_1	8	static
+global.c:38:6:setRed_2	8	static
+global.c:44:6:setGreen_2	8	static
+global.c:50:6:setYellow_2	8	static
+global.c:56:6:resetAll	8	static
